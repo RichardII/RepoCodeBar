@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <color name="actionbar_opacity">#DD000000</color>
+    <color name="viewfinder_mask">#DD000000</color>
+    <color name="viewfinder_border">#DD055000</color>
+    <color name="viewfinder_laser">#DD055F00</color>
+    
+</resources>
