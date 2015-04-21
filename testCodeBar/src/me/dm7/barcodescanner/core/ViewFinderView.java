@@ -1,7 +1,6 @@
 package me.dm7.barcodescanner.core;
 
 
-import me.dm7.barcodescanner.zxing.sample.R;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -104,7 +103,6 @@ public class ViewFinderView extends View {
         Paint paint = new Paint();
         Resources resources = getResources();
         // Draw a red "laser scanner" line through the middle to show decoding is active
-        paint.setColor(resources.getColor(R.color.viewfinder_laser));
         paint.setAlpha(SCANNER_ALPHA[scannerAlpha]);
         paint.setStyle(Paint.Style.FILL);
         scannerAlpha = (scannerAlpha + 1) % SCANNER_ALPHA.length;
